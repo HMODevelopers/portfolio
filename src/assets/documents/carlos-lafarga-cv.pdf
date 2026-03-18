@@ -1,0 +1,35 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Count 1 /Kids [3 0 R] >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+5 0 obj << /Length 874 >> stream
+BT /F1 18 Tf 50 760 Td (Carlos Lafarga) Tj ET
+BT /F1 11 Tf 50 730 Td (Software Engineer) Tj ET
+BT /F1 11 Tf 50 712 Td () Tj ET
+BT /F1 11 Tf 50 694 Td (Especialidad:) Tj ET
+BT /F1 11 Tf 50 676 Td (- Backend) Tj ET
+BT /F1 11 Tf 50 658 Td (- Arquitectura de sistemas) Tj ET
+BT /F1 11 Tf 50 640 Td (- APIs empresariales) Tj ET
+BT /F1 11 Tf 50 622 Td (- Bases de datos y soluciones escalables) Tj ET
+BT /F1 11 Tf 50 604 Td () Tj ET
+BT /F1 11 Tf 50 586 Td (Tecnologas clave:) Tj ET
+BT /F1 11 Tf 50 568 Td (NestJS, Angular, TypeScript, .NET, SQL Server, MySQL, PostgreSQL, Prisma, Docker, PHP, Python.) Tj ET
+BT /F1 11 Tf 50 550 Td () Tj ET
+BT /F1 11 Tf 50 532 Td (Contacto:) Tj ET
+BT /F1 11 Tf 50 514 Td (carlos.lafarga.dev@gmail.com) Tj ET
+BT /F1 11 Tf 50 496 Td (https://github.com/carloslafarga) Tj ET
+BT /F1 11 Tf 50 478 Td (https://www.linkedin.com/in/carlos-lafarga) Tj ET
+endstream endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1235
+%%EOF

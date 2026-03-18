@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#07111F"/>
+  <circle cx="930" cy="120" r="180" fill="#60A5FA" fill-opacity="0.16"/>
+  <circle cx="230" cy="520" r="200" fill="#2DD4BF" fill-opacity="0.12"/>
+  <rect x="86" y="86" width="1028" height="458" rx="32" fill="#0B1628" stroke="rgba(148,163,184,0.18)"/>
+  <text x="130" y="230" fill="#E5EEFB" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Carlos Lafarga</text>
+  <text x="130" y="304" fill="#F8FBFF" font-family="Manrope, Arial, sans-serif" font-size="62" font-weight="800">Software Engineer</text>
+  <text x="130" y="380" fill="#9FB0C6" font-family="Inter, Arial, sans-serif" font-size="28">Backend · Arquitectura de sistemas · APIs empresariales · Soluciones escalables</text>
+</svg>
