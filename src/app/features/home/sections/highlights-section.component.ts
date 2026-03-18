@@ -9,9 +9,9 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
   template: `
     <section id="fortalezas" class="section section-observed">
       <app-section-heading
-        eyebrow="Fortalezas"
-        title="Capacidades que aportan estructura, velocidad y confiabilidad al desarrollo de productos digitales."
-        description="Mi enfoque combina profundidad técnica, criterio de arquitectura y adaptación rápida para resolver problemas complejos sin perder claridad."
+        eyebrow="Competencias"
+        title="Habilidades personales y profesionales que fortalecen cada solución que desarrollo."
+        description="Además del conocimiento técnico, aporto criterio, responsabilidad y comunicación clara para acompañar proyectos que deben funcionar bien en el día a día."
       />
 
       <div class="highlights-grid">
@@ -23,14 +23,14 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
         }
 
         <article>
-          <h3>Especialidades técnicas</h3>
+          <h3>Otras competencias clave</h3>
           <ul>
-            <li>Arquitectura backend y diseño modular</li>
-            <li>Diseño de bases de datos y consistencia de datos</li>
-            <li>Seguridad, RBAC, JWT y control de acceso</li>
-            <li>APIs REST e integración entre sistemas</li>
-            <li>Desarrollo full stack con foco en backend</li>
-            <li>Resolución de problemas y aprendizaje acelerado</li>
+            <li>Comunicación con usuarios no técnicos</li>
+            <li>Orientación a resultados</li>
+            <li>Mejora continua</li>
+            <li>Responsabilidad</li>
+            <li>Trabajo colaborativo con equipos multidisciplinarios</li>
+            <li>Capacidad para mantener y evolucionar sistemas productivos</li>
           </ul>
         </article>
       </div>

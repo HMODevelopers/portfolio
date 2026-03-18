@@ -14,195 +14,242 @@ export const NAV_ITEMS: NavItem[] = [
   { id: 'stack', label: 'Stack' },
   { id: 'experiencia', label: 'Experiencia' },
   { id: 'proyectos', label: 'Proyectos' },
-  { id: 'fortalezas', label: 'Fortalezas' },
+  { id: 'fortalezas', label: 'Competencias' },
   { id: 'contacto', label: 'Contacto' },
 ];
 
 export const HERO_METRICS: HeroMetric[] = [
-  { value: 'APIs empresariales', label: 'Diseñadas para flujos críticos y escalables' },
-  { value: 'Arquitectura backend', label: 'Modelado robusto, mantenible y segura' },
-  { value: 'Impacto real', label: 'Proyectos para gobierno, educación y negocio privado' },
+  { value: '10+ años', label: 'Experiencia desarrollando y manteniendo soluciones para operación diaria.' },
+  { value: 'Angular + .NET', label: 'Stack principal para productos empresariales, académicos y de gobierno.' },
+  { value: 'Power BI + SQL', label: 'Dashboards, análisis de datos y optimización de consultas con impacto real.' },
 ];
 
 export const HIGHLIGHTS: HighlightItem[] = [
   {
-    title: 'Pensamiento sistémico',
+    title: 'Adaptabilidad y aprendizaje rápido',
     description:
-      'Traduzco reglas de negocio complejas en soluciones técnicas claras, sostenibles y preparadas para escalar.',
+      'Me integro con facilidad a nuevos dominios, herramientas y procesos para generar valor desde etapas tempranas del proyecto.',
   },
   {
-    title: 'Entrega orientada a negocio',
+    title: 'Trabajo en equipo y colaboración',
     description:
-      'Priorizo trazabilidad, seguridad, rendimiento y experiencia de usuario para generar valor medible desde la primera iteración.',
+      'Colaboro de forma cercana con equipos técnicos y usuarios clave para convertir necesidades reales en soluciones claras y funcionales.',
   },
   {
-    title: 'Integración end-to-end',
+    title: 'Resolución de problemas y pensamiento analítico',
     description:
-      'Conecto backend, frontend y datos en productos consistentes, confiables y listos para ambientes de producción.',
+      'Analizo contexto, datos y restricciones operativas para proponer mejoras sostenibles enfocadas en estabilidad, rendimiento y continuidad.',
   },
 ];
 
 export const TECHNOLOGY_CATEGORIES: TechCategory[] = [
   {
-    title: 'Backend & APIs',
-    description: 'Servicios empresariales, dominio, seguridad y tiempo real.',
-    items: ['NestJS', 'Node.js', 'TypeScript', '.NET', 'PHP', 'Python', 'Flask', 'APIs REST', 'Socket.IO', 'JWT', 'RBAC'],
+    title: 'Backend',
+    description: 'Servicios, APIs y lógica de negocio para soluciones empresariales y de misión crítica.',
+    items: ['.NET (ASP.NET MVC / Web API / .NET Core)', 'NestJS (TypeScript)', 'PHP (Laravel / MVC)', 'Python (Flask)'],
   },
   {
-    title: 'Frontend & Integración',
-    description: 'Interfaces sólidas para ecosistemas conectados.',
-    items: ['Angular', 'TypeScript', 'SCSS', 'RxJS', 'Signals', 'Arquitectura frontend', 'Integración frontend/backend'],
+    title: 'Frontend',
+    description: 'Interfaces web mantenibles, integradas con APIs y enfocadas en una experiencia clara para el usuario.',
+    items: [
+      'Angular (v10–v20)',
+      'JavaScript',
+      'jQuery',
+      'HTML / CSS',
+      'Tailwind CSS',
+      'Bootstrap',
+      'Material UI / Angular Material',
+    ],
   },
   {
-    title: 'Datos & Persistencia',
-    description: 'Modelado, consultas eficientes y consistencia operativa.',
-    items: ['SQL Server', 'MySQL', 'PostgreSQL', 'Prisma', 'Entity Framework', 'Diseño relacional', 'Optimización SQL'],
+    title: 'Bases de datos',
+    description: 'Modelado, consultas, mantenimiento y optimización orientados a operación continua.',
+    items: ['SQL Server', 'MySQL / MariaDB', 'PostgreSQL'],
   },
   {
-    title: 'DevOps & Herramientas',
-    description: 'Flujo de entrega, trazabilidad y despliegues repetibles.',
-    items: ['Docker', 'Git', 'Linux', 'CI/CD', 'Documentación técnica', 'Versionado', 'Buenas prácticas de release'],
+    title: 'DevOps / Herramientas',
+    description: 'Versionado, despliegue, colaboración y análisis para equipos y productos en evolución constante.',
+    items: ['Docker', 'Git', 'Azure DevOps / TFS', 'Power BI'],
+  },
+  {
+    title: 'Seguridad',
+    description: 'Controles de acceso y autenticación alineados a reglas de negocio y perfiles operativos.',
+    items: ['JWT', 'Auth', 'RBAC'],
   },
 ];
 
 export const EXPERIENCE_ITEMS: ExperienceItem[] = [
   {
-    period: '2023 — Actualidad',
-    role: 'Software Engineer / Backend-Full Stack Developer',
-    company: 'Proyectos empresariales y sector público',
-    type: 'Remoto / Híbrido · Desarrollo de software y arquitectura',
+    period: 'Ene 2024 — Actualidad',
+    role: 'Mid Full Stack Developer',
+    company: 'Fiscalía General de Justicia del Estado de Sonora',
+    type: 'Tiempo completo · .NET, Angular y SQL Server',
     summary:
-      'Participación en soluciones de misión crítica con foco en APIs, sistemas administrativos, módulos de seguridad y plataformas para operación institucional.',
+      'Desarrollo y mantenimiento de sistemas que apoyan procesos institucionales, con foco en estabilidad operativa, análisis de información y rendimiento.',
     responsibilities: [
-      'Diseño y desarrollo de servicios backend con NestJS, .NET y TypeScript.',
-      'Modelado de bases de datos relacionales para procesos administrativos, inventarios y trazabilidad.',
-      'Integración de paneles frontend con consumo de APIs, autenticación JWT y control de acceso por roles.',
+      'Desarrollo y mantenimiento de sistemas con .NET, Angular y SQL Server.',
+      'Creación de dashboards con Power BI para seguimiento operativo y toma de decisiones.',
+      'Optimización de consultas SQL y ajustes orientados a mejorar rendimiento y tiempos de respuesta.',
     ],
     impact: [
-      'Reducción de fricción operativa mediante automatización de flujos y centralización de información.',
-      'Mayor mantenibilidad gracias a arquitectura modular, separación de responsabilidades y contratos claros.',
+      'Mejora de estabilidad en sistemas críticos utilizados en la operación diaria.',
+      'Mayor visibilidad de información mediante reportes y tableros con datos accionables.',
     ],
   },
   {
-    period: '2021 — 2023',
-    role: 'Software Developer',
-    company: 'Soluciones para educación y negocios',
-    type: 'Tiempo completo · Implementación de plataformas internas',
+    period: 'Ene 2023 — Ene 2024',
+    role: 'Mid Full Stack Developer',
+    company: 'Universidad Estatal de Sonora',
+    type: 'Tiempo completo · NestJS, Angular y SQL Server',
     summary:
-      'Construcción de sistemas para control escolar, administración operativa, inventarios y experiencias web con soporte a múltiples actores.',
+      'Participación en una plataforma académica para más de 15,000 usuarios, desarrollando módulos backend y frontend alineados a procesos universitarios.',
     responsibilities: [
-      'Desarrollo de módulos para portales escolares multi-campus y sistemas administrativos.',
-      'Implementación de reportes, consultas SQL complejas y reglas de negocio alineadas al dominio.',
-      'Mantenimiento evolutivo y mejora continua de productos en producción.',
+      'Desarrollo de una plataforma académica para +15,000 usuarios.',
+      'Diseño de APIs, reglas de negocio e integración entre NestJS, Angular y SQL Server.',
+      'Trabajo colaborativo bajo Scrum para entrega continua de funcionalidades.',
     ],
     impact: [
-      'Aceleración de procesos internos y reducción de errores manuales mediante digitalización.',
-      'Soporte a crecimiento funcional sin comprometer estabilidad del sistema.',
+      'Soporte a una operación académica multiusuario con procesos centralizados.',
+      'Base técnica robusta para evolucionar módulos y reglas institucionales.',
     ],
   },
   {
-    period: '2019 — 2021',
-    role: 'Ingeniero de Software',
-    company: 'Consultoría y desarrollo de soluciones a medida',
-    type: 'Proyectos por objetivos · Full stack y base de datos',
+    period: 'Mar 2022 — Oct 2023',
+    role: 'Desarrollador Web',
+    company: 'ANFEXI',
+    type: 'Tiempo completo · ASP.NET MVC y Angular',
     summary:
-      'Participación en productos orientados a control operativo, seguridad de la información y conectividad entre distintas capas del sistema.',
+      'Desarrollo, soporte y mantenimiento de sistemas financieros en producción, asegurando continuidad del servicio y mejoras evolutivas.',
     responsibilities: [
-      'Levantamiento técnico, análisis de requerimientos y diseño de soluciones escalables.',
-      'Construcción de endpoints, catálogos, dashboards y estructuras de permisos.',
-      'Pruebas funcionales, optimización y acompañamiento a puesta en producción.',
+      'Desarrollo de sistemas financieros con ASP.NET MVC y Angular.',
+      'Soporte y mantenimiento en producción para incidencias y ajustes operativos.',
+      'Corrección de errores y mejora continua sobre funcionalidades existentes.',
     ],
     impact: [
-      'Entrega de soluciones adaptables a diferentes clientes y contextos regulatorios.',
-      'Base sólida para evolucionar productos con enfoque en rendimiento y confiabilidad.',
+      'Mayor confiabilidad en procesos financieros soportados por la plataforma.',
+      'Reducción de incidencias recurrentes mediante mantenimiento correctivo y evolutivo.',
+    ],
+  },
+  {
+    period: 'Feb 2019 — Ene 2023',
+    role: 'JR Full Stack Developer',
+    company: 'Secretaría de Educación y Cultura',
+    type: 'Tiempo completo · .NET, PHP/Laravel y MySQL',
+    summary:
+      'Desarrollo de sistemas para docentes y áreas operativas, integrando backend, frontend, bases de datos y despliegues a producción.',
+    responsibilities: [
+      'Desarrollo de soluciones con .NET y PHP/Laravel.',
+      'Integración con MySQL y mantenimiento de estructuras de datos para operación institucional.',
+      'Soporte funcional, despliegues en producción y seguimiento a usuarios.',
+    ],
+    impact: [
+      'Digitalización de procesos dirigidos a personal docente y administrativo.',
+      'Continuidad operativa mediante soporte cercano y liberaciones controladas.',
+    ],
+  },
+  {
+    period: 'Jul 2018 — Feb 2019',
+    role: 'Analista Programador',
+    company: 'Fiscalía General de Justicia del Estado de Sonora',
+    type: 'Tiempo completo · SQL Server, Angular y Web API',
+    summary:
+      'Mantenimiento de sistemas críticos y desarrollo de herramientas para mejorar consulta, limpieza y explotación de datos institucionales.',
+    responsibilities: [
+      'Mantenimiento de sistemas críticos en operación.',
+      'Trabajo con SQL Server: stored procedures, consultas y limpieza de datos.',
+      'Desarrollo de herramientas con Angular y Web API.',
+    ],
+    impact: [
+      'Mayor confiabilidad en la información utilizada por áreas operativas.',
+      'Mejor soporte a procesos internos mediante herramientas de consulta y seguimiento.',
+    ],
+  },
+  {
+    period: 'Mar 2015 — Jun 2018',
+    role: 'Desarrollador / Analista de Datos',
+    company: 'Secretaría de Educación y Cultura',
+    type: 'Tiempo completo · PHP, MySQL y análisis operativo',
+    summary:
+      'Desarrollo del sistema SICAT, generación de reportes operativos y soporte a usuarios para asegurar continuidad y aprovechamiento de la información.',
+    responsibilities: [
+      'Desarrollo en PHP + MySQL para el sistema SICAT.',
+      'Elaboración de reportes operativos y análisis de datos para distintas áreas.',
+      'Atención y soporte a usuarios finales en procesos cotidianos.',
+    ],
+    impact: [
+      'Mejora del acceso a información operativa para seguimiento y control.',
+      'Atención directa a necesidades reales de usuarios con soluciones funcionales y sostenibles.',
     ],
   },
 ];
 
 export const PROJECT_ITEMS: ProjectItem[] = [
   {
-    name: 'Portal Escolar Multi-campus',
-    role: 'Backend / Full Stack Engineer',
-    timeline: 'Plataforma académica y administrativa',
+    name: 'Portal Escolar multi-campus',
+    role: 'Mid Full Stack Developer',
+    timeline: 'Plataforma académica para +15,000 usuarios',
     description:
-      'Portal integral para operación escolar con módulos de alumnos, docentes, pagos, comunicación y administración multi-sede.',
+      'Plataforma académica y administrativa construida para centralizar procesos escolares, reglas de negocio y operación de múltiples campus en un mismo entorno.',
     problem:
-      'Las instituciones requerían unificar procesos dispersos, visibilidad operativa y control sobre diferentes campus.',
+      'La institución requería unificar procesos académicos y administrativos, mantener consistencia entre sedes y soportar una base amplia de usuarios.',
     impact:
-      'Centralización de la operación académica y administrativa con una plataforma escalable y preparada para crecer por módulos.',
-    technologies: ['NestJS', 'Angular', 'TypeScript', 'MySQL', 'JWT', 'RBAC'],
+      'Se fortaleció la operación institucional con una plataforma centralizada, escalable y alineada a necesidades reales de estudiantes, docentes y administración.',
+    technologies: ['NestJS', 'Angular', 'SQL Server', 'TypeScript', 'Scrum'],
     highlights: [
-      'Diseño de APIs y estructura de roles por perfil institucional.',
-      'Integración de vistas administrativas y flujos de consulta de información clave.',
-      'Base preparada para nuevas sedes, usuarios y automatizaciones futuras.',
+      'Diseño de APIs y reglas de negocio para procesos académicos.',
+      'Integración de módulos frontend y backend con enfoque multiusuario.',
+      'Base técnica preparada para crecimiento funcional y continuidad operativa.',
     ],
   },
   {
-    name: 'Sistema de Custodia / Cadena de Custodia',
-    role: 'Backend Engineer / Systems Designer',
-    timeline: 'Sector público y trazabilidad operativa',
+    name: 'Sistema de Custodia',
+    role: 'Mid Full Stack Developer',
+    timeline: 'Trazabilidad y control institucional',
     description:
-      'Sistema para registrar eventos, responsables, evidencia y trazabilidad completa en procesos sensibles de custodia.',
+      'Sistema orientado al registro y seguimiento de procesos sensibles, con énfasis en trazabilidad, consulta de datos y estabilidad operativa.',
     problem:
-      'Se necesitaba auditar movimientos y responsables con integridad de datos, historial confiable y acceso controlado.',
+      'Era necesario contar con un sistema claro y confiable para dar seguimiento a eventos, responsables y estados dentro de procesos institucionales críticos.',
     impact:
-      'Mayor transparencia operativa, trazabilidad por evento y soporte a procesos institucionales con altos requerimientos de control.',
-    technologies: ['.NET', 'SQL Server', 'Entity Framework', 'RBAC', 'APIs REST'],
+      'Se mejoró el control de la información, la consulta histórica y la capacidad operativa de las áreas responsables.',
+    technologies: ['.NET', 'Angular', 'SQL Server', 'Web API', 'Power BI'],
     highlights: [
-      'Modelado orientado a auditoría y seguimiento cronológico.',
-      'Control de acceso por roles y restricciones según contexto operativo.',
-      'Enfoque en consistencia, seguridad y consulta histórica.',
+      'Desarrollo y mantenimiento sobre procesos críticos del sector público.',
+      'Optimización de consultas SQL y mejora de tiempos de respuesta.',
+      'Dashboards y reportes para seguimiento operativo con información accionable.',
     ],
   },
   {
-    name: 'REFASOFT · Inventarios y Punto de Venta',
-    role: 'Software Engineer',
-    timeline: 'Operación comercial y control de inventario',
+    name: 'Sistema de Inventarios / POS',
+    role: 'Full Stack Developer',
+    timeline: 'Control comercial e inventario',
     description:
-      'Sistema para administrar inventarios, ventas, productos, movimientos y reportes operativos para negocio minorista.',
+      'Solución web para administrar inventarios, ventas, movimientos y control operativo, pensada para facilitar procesos diarios y reducir errores manuales.',
     problem:
-      'La empresa requería precisión sobre existencias, ventas y trazabilidad de operaciones diarias.',
+      'La operación requería mejor visibilidad sobre existencias, ventas y movimientos para mantener control confiable del negocio.',
     impact:
-      'Visibilidad sobre inventario y ventas, reducción de pérdidas por errores manuales y mayor control del negocio.',
-    technologies: ['PHP', 'MySQL', 'Angular', 'SCSS', 'APIs REST'],
+      'Se logró un seguimiento más preciso del inventario y de las transacciones, mejorando la organización y el control operativo.',
+    technologies: ['ASP.NET MVC', 'Angular', 'SQL Server', 'JavaScript', 'Bootstrap'],
     highlights: [
-      'Catálogo de productos, movimientos y panel de indicadores operativos.',
-      'Integración entre módulos administrativos y flujo de venta.',
-      'Estructura mantenible para sumar nuevas reglas comerciales.',
+      'Módulos de inventario, ventas y seguimiento de movimientos.',
+      'Soporte y mantenimiento continuo en ambientes productivos.',
+      'Mejoras evolutivas enfocadas en usabilidad y continuidad del servicio.',
     ],
   },
   {
-    name: 'Plataforma de Análisis de Riesgo',
-    role: 'Backend / Data-focused Engineer',
-    timeline: 'Evaluación de riesgo y toma de decisiones',
+    name: 'Plataforma de análisis de datos',
+    role: 'Desarrollador / Analista de Datos',
+    timeline: 'Reportes operativos y visualización',
     description:
-      'Plataforma para consolidar datos, reglas y resultados de evaluación en procesos de análisis y seguimiento.',
+      'Conjunto de tableros, reportes y procesos de análisis para transformar datos operativos en información útil para seguimiento y toma de decisiones.',
     problem:
-      'Era necesario transformar múltiples variables en información accionable con reglas consistentes y tiempos de respuesta adecuados.',
+      'Las áreas operativas necesitaban interpretar mejor la información disponible y contar con reportes claros para dar seguimiento a indicadores clave.',
     impact:
-      'Mejora de la capacidad de análisis y soporte a decisiones con información centralizada y consultable.',
-    technologies: ['NestJS', 'PostgreSQL', 'Prisma', 'Docker', 'TypeScript'],
+      'Se facilitó el acceso a información relevante mediante reportes y dashboards más claros, oportunos y alineados a necesidades reales.',
+    technologies: ['Power BI', 'SQL Server', 'MySQL', 'PHP', 'Excel'],
     highlights: [
-      'Diseño de dominio y persistencia para criterios complejos.',
-      'Preparación para integración con servicios externos y reportes.',
-      'Arquitectura limpia para evolución de reglas y procesos.',
-    ],
-  },
-  {
-    name: 'Sistemas Administrativos / Empresariales',
-    role: 'Full Stack Engineer',
-    timeline: 'Automatización operativa y digitalización',
-    description:
-      'Conjunto de soluciones internas para control de procesos, catálogos, usuarios, permisos y seguimiento operativo.',
-    problem:
-      'Los equipos trabajaban con hojas de cálculo, procesos manuales y baja visibilidad del estado de sus operaciones.',
-    impact:
-      'Digitalización de flujos, reducción de duplicidad y mejor seguimiento de tareas, registros y decisiones.',
-    technologies: ['Angular', 'NestJS', 'SQL Server', 'Docker', 'Git'],
-    highlights: [
-      'Implementación de módulos modulares y reutilizables.',
-      'Definición de catálogos, validaciones y reglas por proceso.',
-      'Base sólida para escalar hacia nuevas necesidades del negocio.',
+      'Construcción de dashboards y reportes operativos.',
+      'Análisis de datos para detectar oportunidades de mejora.',
+      'Soporte a usuarios en interpretación y aprovechamiento de la información.',
     ],
   },
 ];
@@ -210,17 +257,22 @@ export const PROJECT_ITEMS: ProjectItem[] = [
 export const CONTACT_LINKS: ContactLink[] = [
   {
     label: 'Correo',
-    value: 'carlos.lafarga.dev@gmail.com',
-    href: 'mailto:carlos.lafarga.dev@gmail.com',
+    value: 'carloslafarga22@gmail.com',
+    href: 'mailto:carloslafarga22@gmail.com',
+  },
+  {
+    label: 'Teléfono',
+    value: '+52 662 395 3551',
+    href: 'tel:+526623953551',
   },
   {
     label: 'GitHub',
-    value: 'github.com/carloslafarga',
-    href: 'https://github.com/carloslafarga',
+    value: 'github.com/HMODevelopers',
+    href: 'https://github.com/HMODevelopers',
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/carlos-lafarga',
-    href: 'https://www.linkedin.com/in/carlos-lafarga',
+    value: 'linkedin.com/in/carlos-octavio-preciado-lafarga-0423a5ba',
+    href: 'https://www.linkedin.com/in/carlos-octavio-preciado-lafarga-0423a5ba/',
   },
 ];

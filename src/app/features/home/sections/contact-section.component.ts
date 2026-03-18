@@ -10,18 +10,19 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     <section id="contacto" class="section section-observed contact">
       <app-section-heading
         eyebrow="Contacto"
-        title="Listo para conversar sobre oportunidades, productos y retos técnicos con impacto real."
-        description="Si buscas a un ingeniero capaz de entender negocio, diseñar backend sólido y entregar soluciones bien estructuradas, será un gusto conectar."
+        title="Disponible para colaborar en soluciones que necesiten estabilidad, claridad técnica y enfoque en resultados."
+        description="Si buscas un perfil con experiencia en sistemas, backend, frontend y mejora continua, será un gusto conversar contigo."
       />
 
       <div class="contact-card">
         <div class="contact-card__copy">
           <h3>Conectemos</h3>
           <p>
-            Estoy abierto a oportunidades remotas, colaboración técnica, consultoría y proyectos donde la
-            arquitectura, los datos y la calidad de ejecución sean una prioridad.
+            Actualmente me encuentro en Hermosillo, Sonora, México. Estoy abierto a conversar sobre
+            oportunidades profesionales, mantenimiento evolutivo, desarrollo de plataformas y mejora
+            de sistemas existentes.
           </p>
-          <a class="contact-card__button" href="mailto:carlos.lafarga.dev@gmail.com">Enviar mensaje</a>
+          <a class="contact-card__button" href="mailto:carloslafarga22@gmail.com">Enviar mensaje</a>
         </div>
 
         <div class="contact-card__links">

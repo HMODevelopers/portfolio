@@ -12,8 +12,8 @@ import { ThemeToggleComponent } from './theme-toggle.component';
         <a class="navbar__brand" href="#inicio" aria-label="Ir al inicio">
           <span class="navbar__brand-mark">CL</span>
           <span>
-            <strong>Carlos Lafarga</strong>
-            <small>Software Engineer</small>
+            <strong>Carlos O. Preciado Lafarga</strong>
+            <small>Ingeniero en Sistemas</small>
           </span>
         </a>
 

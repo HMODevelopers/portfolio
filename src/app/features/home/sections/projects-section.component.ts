@@ -11,8 +11,8 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     <section id="proyectos" class="section section-observed">
       <app-section-heading
         eyebrow="Proyectos destacados"
-        title="Casos donde arquitectura, backend y entendimiento del dominio se convierten en valor tangible."
-        description="Estos proyectos representan el tipo de soluciones que disfruto construir: sistemas claros, útiles y pensados para resolver necesidades reales con una base técnica seria."
+        title="Proyectos enfocados en operación real, trazabilidad, análisis y mejora continua."
+        description="Estos casos representan el tipo de soluciones en las que he participado: plataformas útiles, mantenibles y alineadas a necesidades concretas de negocio e institución."
       />
 
       <div class="projects-grid">

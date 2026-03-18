@@ -6,13 +6,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
     <footer class="footer">
       <div>
-        <strong>Carlos Lafarga</strong>
-        <p>Software Engineer · Backend, arquitectura de sistemas y soluciones escalables.</p>
+        <strong>Carlos Octavio Preciado Lafarga</strong>
+        <p>Ingeniero en Sistemas de Información · Full Stack Developer con enfoque en soluciones funcionales, estables y mantenibles.</p>
       </div>
       <div class="footer__links">
-        <a href="mailto:carlos.lafarga.dev@gmail.com">Correo</a>
-        <a href="https://github.com/carloslafarga" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/carlos-lafarga" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:carloslafarga22@gmail.com">Correo</a>
+        <a href="tel:+526623953551">Teléfono</a>
+        <a href="https://github.com/HMODevelopers" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/carlos-octavio-preciado-lafarga-0423a5ba/" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </footer>
   `,

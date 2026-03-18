@@ -9,43 +9,42 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     <section id="sobre-mi" class="section section-observed">
       <app-section-heading
         eyebrow="Sobre mí"
-        title="Ingeniería orientada a resolver procesos reales con claridad técnica y visión de producto."
-        description="Combino enfoque backend, diseño de arquitectura y entendimiento del negocio para construir soluciones mantenibles, escalables y alineadas a objetivos operativos."
+        title="Ingeniero en Sistemas enfocado en construir soluciones claras, funcionales y sostenibles para necesidades reales."
+        description="Cuento con más de 10 años de experiencia creando, mejorando y manteniendo sistemas para organizaciones públicas y privadas, siempre con foco en resultados, calidad y continuidad del servicio."
       />
 
       <div class="about-grid">
         <article>
-          <h3>Quién soy</h3>
+          <h3>Perfil profesional</h3>
           <p>
-            Soy Carlos Lafarga, Ingeniero de Software con experiencia desarrollando plataformas y sistemas
-            que deben responder bien bajo reglas reales de operación, restricciones institucionales y
-            crecimiento funcional sostenido.
+            Soy Carlos Octavio Preciado Lafarga, Ingeniero en Sistemas de Información radicado en
+            Hermosillo, Sonora, México. Me enfoco en transformar necesidades reales en herramientas
+            claras y funcionales que apoyen la operación diaria de cada organización.
           </p>
         </article>
 
         <article>
-          <h3>Qué hago</h3>
+          <h3>Enfoque de trabajo</h3>
           <p>
-            Diseño y desarrollo backend, APIs empresariales, modelos de datos, módulos de seguridad,
-            integraciones y experiencias full stack donde la consistencia técnica importa tanto como el
-            resultado para el usuario final.
+            Disfruto aprender, optimizar sistemas y asegurar que sean fáciles de usar, estables y
+            sencillos de mantener. Trabajo con visión práctica, entendiendo el problema antes de
+            construir la solución.
           </p>
         </article>
 
         <article>
-          <h3>Valor que aporto</h3>
+          <h3>Formación y certificaciones</h3>
           <p>
-            Aporto estructura, criterio y ejecución. Puedo entrar a un dominio complejo, entender sus flujos,
-            proponer una arquitectura viable y convertirla en software confiable con foco en mantenibilidad,
-            trazabilidad y escalabilidad.
+            Ingeniería en Sistemas de Información por la Universidad de Sonora (2009–2015).
+            Certificaciones: Oracle Java SE 6 (2015) y Power BI (2023).
           </p>
         </article>
 
         <article>
-          <h3>Tipo de proyectos</h3>
+          <h3>Idiomas</h3>
           <p>
-            He trabajado en sistemas para educación, gobierno, inventarios, control administrativo, plataformas
-            de análisis y soluciones empresariales donde backend, base de datos y reglas de negocio son el centro.
+            Español 100% e inglés 40%. Tengo experiencia colaborando con usuarios no técnicos y
+            comunicando soluciones de forma clara, directa y orientada a resultados.
           </p>
         </article>
       </div>

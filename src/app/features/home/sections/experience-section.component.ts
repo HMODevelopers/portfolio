@@ -11,8 +11,8 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     <section id="experiencia" class="section section-observed">
       <app-section-heading
         eyebrow="Experiencia"
-        title="Experiencia construyendo software útil, estructurado y listo para operar en contextos exigentes."
-        description="He participado en soluciones donde backend, datos, seguridad y operación diaria son determinantes para el éxito del producto."
+        title="Trayectoria desarrollando software que respalda procesos críticos, académicos y administrativos."
+        description="Mi experiencia combina desarrollo, mantenimiento, soporte, optimización y evolución de sistemas utilizados por instituciones públicas y privadas."
       />
 
       <app-experience-timeline [items]="items()" />

@@ -7,13 +7,13 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
   template: `
     <section id="inicio" class="hero section-observed">
       <div class="hero__copy">
-        <span class="hero__eyebrow">Backend-first engineer · Arquitectura · Sistemas empresariales</span>
-        <h1>Carlos Lafarga</h1>
-        <h2>Construyo plataformas robustas que conectan arquitectura, datos y negocio con ejecución real.</h2>
+        <span class="hero__eyebrow">Ingeniero en Sistemas de Información · Full Stack · Mejora continua</span>
+        <h1>Carlos Octavio Preciado Lafarga</h1>
+        <h2>Desarrollo soluciones funcionales que convierten necesidades reales en sistemas claros, estables y mantenibles.</h2>
         <p>
-          Soy Ingeniero de Software con experiencia en desarrollo backend, arquitectura de sistemas,
-          APIs empresariales, bases de datos y productos que resuelven procesos reales en gobierno,
-          educación y negocios.
+          Cuento con más de 10 años de experiencia creando, mejorando y manteniendo soluciones para
+          organizaciones públicas y privadas, con especial enfoque en .NET, Angular, SQL Server,
+          Power BI y plataformas orientadas a la operación diaria.
         </p>
 
         <div class="hero__actions">
@@ -27,7 +27,7 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
 
       <aside class="hero__panel" aria-label="Resumen profesional">
         <div class="hero__badge">
-          <span>Disponible para oportunidades remotas, colaboración técnica y proyectos de alto impacto.</span>
+          <span>Ubicación: Hermosillo, Sonora, México. Disponible para colaborar en proyectos con foco en resultados, calidad y continuidad del servicio.</span>
         </div>
 
         <div class="hero__metrics">

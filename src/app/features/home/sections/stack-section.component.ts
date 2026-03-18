@@ -11,8 +11,8 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     <section id="stack" class="section section-observed">
       <app-section-heading
         eyebrow="Stack & Tecnologías"
-        title="Tecnología aplicada con criterio arquitectónico, enfoque de negocio y mantenibilidad."
-        description="Mi stack está orientado a construir servicios confiables, experiencias integradas y bases técnicas sólidas para productos que evolucionan."
+        title="Tecnologías que utilizo para crear, mantener y mejorar soluciones web completas."
+        description="Mi experiencia combina backend, frontend, bases de datos, seguridad y herramientas de colaboración para productos que deben ser estables, claros y sostenibles."
       />
 
       <div class="stack-grid">
