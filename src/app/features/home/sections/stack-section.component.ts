@@ -10,16 +10,18 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
   template: `
     <section id="stack" class="section section-observed">
       <app-section-heading
-        eyebrow="Stack & Tecnologías"
-        title="Tecnologías que utilizo para crear, mantener y mejorar soluciones web completas."
-        description="Mi experiencia combina backend, frontend, bases de datos, seguridad y herramientas de colaboración para productos que deben ser estables, claros y sostenibles."
+        eyebrow="Stack tecnológico"
+        title="Tecnologías y herramientas utilizadas en el desarrollo de soluciones reales."
+        description="Capacidades técnicas organizadas por especialidad para construir productos estables, escalables y alineados a operación, mantenimiento y evolución continua."
       />
 
       <div class="stack-grid">
         @for (category of categories(); track category.title) {
           <article class="stack-card">
-            <h3>{{ category.title }}</h3>
-            <p>{{ category.description }}</p>
+            <div class="stack-card__header">
+              <h3>{{ category.title }}</h3>
+              <p>{{ category.description }}</p>
+            </div>
             <app-chip-list [items]="category.items" [ariaLabel]="category.title" />
           </article>
         }
@@ -35,12 +37,24 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
 
     .stack-card {
       display: grid;
-      gap: 1rem;
+      gap: 1.25rem;
       padding: 1.5rem;
       border-radius: 1.5rem;
       border: 1px solid var(--color-border);
       background: var(--color-surface-elevated);
       box-shadow: var(--shadow-soft);
+      transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
+    }
+
+    .stack-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--color-border-strong);
+      box-shadow: var(--shadow-strong);
+    }
+
+    .stack-card__header {
+      display: grid;
+      gap: 0.8rem;
     }
 
     h3,
@@ -50,6 +64,7 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
 
     h3 {
       font-size: 1.2rem;
+      font-weight: 750;
       letter-spacing: -0.03em;
     }
 

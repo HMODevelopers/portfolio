@@ -17,7 +17,9 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
         </p>
 
         <div class="hero__actions">
-          <a class="button button--primary" href="#proyectos">Ver proyectos</a>
+          <a class="button button--primary" href="https://github.com/HMODevelopers" target="_blank" rel="noreferrer">
+            Ver código en GitHub
+          </a>
           <a class="button button--secondary" href="assets/documents/carlos-lafarga-cv.pdf" download>
             Descargar CV
           </a>
@@ -118,7 +120,7 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
       border-radius: 999px;
       text-decoration: none;
       font-weight: 600;
-      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+      transition: transform 220ms ease, box-shadow 220ms ease, background 220ms ease, border-color 220ms ease;
     }
 
     .button:hover {
@@ -136,6 +138,12 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
       border: 1px solid var(--color-border);
       color: var(--color-text);
       background: var(--color-surface-soft);
+    }
+
+    .button--secondary:hover,
+    .button--ghost:hover {
+      border-color: var(--color-border-strong);
+      box-shadow: var(--shadow-soft);
     }
 
     .hero__panel {

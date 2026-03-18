@@ -81,6 +81,12 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
       background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
       color: white;
       font-weight: 700;
+      transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease, background 220ms ease;
+    }
+
+    .contact-card__button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-soft);
     }
 
     .contact-card__links a {

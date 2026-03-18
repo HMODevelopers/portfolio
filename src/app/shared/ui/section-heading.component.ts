@@ -13,14 +13,14 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
   styles: `
     .section-heading {
       display: grid;
-      gap: 0.9rem;
-      max-width: 44rem;
-      margin-bottom: clamp(2rem, 4vw, 3rem);
+      gap: 1rem;
+      max-width: 46rem;
+      margin-bottom: clamp(2.25rem, 4vw, 3.25rem);
     }
 
     .eyebrow {
       font-size: 0.78rem;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--color-accent);
@@ -30,6 +30,7 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
       margin: 0;
       font-family: var(--font-display);
       font-size: clamp(2rem, 4vw, 3.25rem);
+      font-weight: 800;
       line-height: 1.05;
       letter-spacing: -0.04em;
     }

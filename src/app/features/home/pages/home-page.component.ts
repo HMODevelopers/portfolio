@@ -12,7 +12,6 @@ import {
   HERO_METRICS,
   HIGHLIGHTS,
   NAV_ITEMS,
-  PROJECT_ITEMS,
   TECHNOLOGY_CATEGORIES,
 } from '../../../core/data/portfolio.data';
 import { BackToTopComponent } from '../../../components/layout/back-to-top.component';
@@ -23,7 +22,6 @@ import { ContactSectionComponent } from '../sections/contact-section.component';
 import { ExperienceSectionComponent } from '../sections/experience-section.component';
 import { HeroSectionComponent } from '../sections/hero-section.component';
 import { HighlightsSectionComponent } from '../sections/highlights-section.component';
-import { ProjectsSectionComponent } from '../sections/projects-section.component';
 import { StackSectionComponent } from '../sections/stack-section.component';
 
 @Component({
@@ -35,7 +33,6 @@ import { StackSectionComponent } from '../sections/stack-section.component';
     AboutSectionComponent,
     StackSectionComponent,
     ExperienceSectionComponent,
-    ProjectsSectionComponent,
     HighlightsSectionComponent,
     ContactSectionComponent,
     FooterComponent,
@@ -55,7 +52,6 @@ import { StackSectionComponent } from '../sections/stack-section.component';
         <app-about-section />
         <app-stack-section [categories]="technologyCategories" />
         <app-experience-section [items]="experienceItems" />
-        <app-projects-section [projects]="projectItems" />
         <app-highlights-section [items]="highlights" />
         <app-contact-section [links]="contactLinks" />
       </main>
@@ -123,7 +119,6 @@ export class HomePageComponent implements AfterViewInit {
   readonly highlights = HIGHLIGHTS;
   readonly technologyCategories = TECHNOLOGY_CATEGORIES;
   readonly experienceItems = EXPERIENCE_ITEMS;
-  readonly projectItems = PROJECT_ITEMS;
   readonly contactLinks = CONTACT_LINKS;
 
   ngAfterViewInit(): void {

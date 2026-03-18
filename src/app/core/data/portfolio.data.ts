@@ -4,7 +4,6 @@ import {
   HeroMetric,
   HighlightItem,
   NavItem,
-  ProjectItem,
   TechCategory,
 } from '../models/portfolio.models';
 
@@ -13,7 +12,6 @@ export const NAV_ITEMS: NavItem[] = [
   { id: 'sobre-mi', label: 'Sobre mí' },
   { id: 'stack', label: 'Stack' },
   { id: 'experiencia', label: 'Experiencia' },
-  { id: 'proyectos', label: 'Proyectos' },
   { id: 'fortalezas', label: 'Competencias' },
   { id: 'contacto', label: 'Contacto' },
 ];
@@ -45,36 +43,41 @@ export const HIGHLIGHTS: HighlightItem[] = [
 export const TECHNOLOGY_CATEGORIES: TechCategory[] = [
   {
     title: 'Backend',
-    description: 'Servicios, APIs y lógica de negocio para soluciones empresariales y de misión crítica.',
-    items: ['.NET (ASP.NET MVC / Web API / .NET Core)', 'NestJS (TypeScript)', 'PHP (Laravel / MVC)', 'Python (Flask)'],
+    description:
+      'Desarrollo de APIs, servicios y lógica de negocio para sistemas empresariales y soluciones de misión crítica, enfocados en escalabilidad, seguridad y rendimiento.',
+    items: ['.NET (ASP.NET MVC / Web API / Core)', 'NestJS (TypeScript)', 'PHP (Laravel / MVC)', 'Python (Flask)'],
   },
   {
     title: 'Frontend',
-    description: 'Interfaces web mantenibles, integradas con APIs y enfocadas en una experiencia clara para el usuario.',
+    description:
+      'Construcción de interfaces modernas, integradas con APIs y enfocadas en experiencia de usuario, rendimiento y mantenibilidad a largo plazo.',
     items: [
       'Angular (v10–v20)',
-      'JavaScript',
-      'jQuery',
+      'Angular Material / Material UI',
+      'TypeScript / JavaScript',
       'HTML / CSS',
       'Tailwind CSS',
       'Bootstrap',
-      'Material UI / Angular Material',
+      'jQuery',
     ],
   },
   {
     title: 'Bases de datos',
-    description: 'Modelado, consultas, mantenimiento y optimización orientados a operación continua.',
-    items: ['SQL Server', 'MySQL / MariaDB', 'PostgreSQL'],
+    description:
+      'Diseño, modelado y optimización de bases de datos, enfocados en integridad, rendimiento y alta disponibilidad en entornos productivos.',
+    items: ['SQL Server', 'PostgreSQL', 'MySQL / MariaDB'],
   },
   {
     title: 'DevOps / Herramientas',
-    description: 'Versionado, despliegue, colaboración y análisis para equipos y productos en evolución constante.',
-    items: ['Docker', 'Git', 'Azure DevOps / TFS', 'Power BI'],
+    description:
+      'Gestión de código, despliegue y herramientas de análisis para garantizar integración continua, estabilidad y evolución constante de los sistemas.',
+    items: ['Git', 'Azure DevOps / TFS', 'Docker', 'Power BI'],
   },
   {
     title: 'Seguridad',
-    description: 'Controles de acceso y autenticación alineados a reglas de negocio y perfiles operativos.',
-    items: ['JWT', 'Auth', 'RBAC'],
+    description:
+      'Implementación de autenticación y control de acceso basado en roles, alineado a reglas de negocio y seguridad en aplicaciones empresariales.',
+    items: ['JWT', 'Autenticación', 'RBAC'],
   },
 ];
 
@@ -179,77 +182,6 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     impact: [
       'Mejora del acceso a información operativa para seguimiento y control.',
       'Atención directa a necesidades reales de usuarios con soluciones funcionales y sostenibles.',
-    ],
-  },
-];
-
-export const PROJECT_ITEMS: ProjectItem[] = [
-  {
-    name: 'Portal Escolar multi-campus',
-    role: 'Mid Full Stack Developer',
-    timeline: 'Plataforma académica para +15,000 usuarios',
-    description:
-      'Plataforma académica y administrativa construida para centralizar procesos escolares, reglas de negocio y operación de múltiples campus en un mismo entorno.',
-    problem:
-      'La institución requería unificar procesos académicos y administrativos, mantener consistencia entre sedes y soportar una base amplia de usuarios.',
-    impact:
-      'Se fortaleció la operación institucional con una plataforma centralizada, escalable y alineada a necesidades reales de estudiantes, docentes y administración.',
-    technologies: ['NestJS', 'Angular', 'SQL Server', 'TypeScript', 'Scrum'],
-    highlights: [
-      'Diseño de APIs y reglas de negocio para procesos académicos.',
-      'Integración de módulos frontend y backend con enfoque multiusuario.',
-      'Base técnica preparada para crecimiento funcional y continuidad operativa.',
-    ],
-  },
-  {
-    name: 'Sistema de Custodia',
-    role: 'Mid Full Stack Developer',
-    timeline: 'Trazabilidad y control institucional',
-    description:
-      'Sistema orientado al registro y seguimiento de procesos sensibles, con énfasis en trazabilidad, consulta de datos y estabilidad operativa.',
-    problem:
-      'Era necesario contar con un sistema claro y confiable para dar seguimiento a eventos, responsables y estados dentro de procesos institucionales críticos.',
-    impact:
-      'Se mejoró el control de la información, la consulta histórica y la capacidad operativa de las áreas responsables.',
-    technologies: ['.NET', 'Angular', 'SQL Server', 'Web API', 'Power BI'],
-    highlights: [
-      'Desarrollo y mantenimiento sobre procesos críticos del sector público.',
-      'Optimización de consultas SQL y mejora de tiempos de respuesta.',
-      'Dashboards y reportes para seguimiento operativo con información accionable.',
-    ],
-  },
-  {
-    name: 'Sistema de Inventarios / POS',
-    role: 'Full Stack Developer',
-    timeline: 'Control comercial e inventario',
-    description:
-      'Solución web para administrar inventarios, ventas, movimientos y control operativo, pensada para facilitar procesos diarios y reducir errores manuales.',
-    problem:
-      'La operación requería mejor visibilidad sobre existencias, ventas y movimientos para mantener control confiable del negocio.',
-    impact:
-      'Se logró un seguimiento más preciso del inventario y de las transacciones, mejorando la organización y el control operativo.',
-    technologies: ['ASP.NET MVC', 'Angular', 'SQL Server', 'JavaScript', 'Bootstrap'],
-    highlights: [
-      'Módulos de inventario, ventas y seguimiento de movimientos.',
-      'Soporte y mantenimiento continuo en ambientes productivos.',
-      'Mejoras evolutivas enfocadas en usabilidad y continuidad del servicio.',
-    ],
-  },
-  {
-    name: 'Plataforma de análisis de datos',
-    role: 'Desarrollador / Analista de Datos',
-    timeline: 'Reportes operativos y visualización',
-    description:
-      'Conjunto de tableros, reportes y procesos de análisis para transformar datos operativos en información útil para seguimiento y toma de decisiones.',
-    problem:
-      'Las áreas operativas necesitaban interpretar mejor la información disponible y contar con reportes claros para dar seguimiento a indicadores clave.',
-    impact:
-      'Se facilitó el acceso a información relevante mediante reportes y dashboards más claros, oportunos y alineados a necesidades reales.',
-    technologies: ['Power BI', 'SQL Server', 'MySQL', 'PHP', 'Excel'],
-    highlights: [
-      'Construcción de dashboards y reportes operativos.',
-      'Análisis de datos para detectar oportunidades de mejora.',
-      'Soporte a usuarios en interpretación y aprovechamiento de la información.',
     ],
   },
 ];
