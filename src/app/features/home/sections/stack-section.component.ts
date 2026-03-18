@@ -31,18 +31,24 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
   styles: `
     .stack-grid {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      align-items: stretch;
     }
 
     .stack-card {
       display: grid;
+      grid-template-rows: auto 1fr;
+      align-content: start;
       gap: 1.25rem;
+      height: 100%;
       padding: 1.5rem;
       border-radius: 1.5rem;
       border: 1px solid var(--color-border);
       background: var(--color-surface-elevated);
       box-shadow: var(--shadow-soft);
+      box-sizing: border-box;
+      overflow: hidden;
       transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
     }
 
@@ -54,7 +60,12 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
 
     .stack-card__header {
       display: grid;
+      align-content: start;
       gap: 0.8rem;
+    }
+
+    app-chip-list {
+      align-self: end;
     }
 
     h3,
@@ -66,11 +77,24 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
       font-size: 1.2rem;
       font-weight: 750;
       letter-spacing: -0.03em;
+      text-wrap: balance;
     }
 
     p {
       color: var(--color-text-muted);
       line-height: 1.8;
+      text-wrap: pretty;
+    }
+
+    @media (max-width: 767px) {
+      .stack-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stack-card {
+        padding: 1.25rem;
+        gap: 1rem;
+      }
     }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

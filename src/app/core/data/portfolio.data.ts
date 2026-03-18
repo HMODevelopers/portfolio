@@ -45,7 +45,7 @@ export const TECHNOLOGY_CATEGORIES: TechCategory[] = [
     title: 'Backend',
     description:
       'Desarrollo de APIs, servicios y lógica de negocio para sistemas empresariales y soluciones de misión crítica, enfocados en escalabilidad, seguridad y rendimiento.',
-    items: ['.NET (ASP.NET MVC / Web API / Core)', 'NestJS (TypeScript)', 'PHP (Laravel / MVC)', 'Python (Flask)'],
+    items: ['.NET (ASP.NET MVC / API / Core)', 'NestJS (TypeScript)', 'PHP (Laravel / MVC)', 'Python (Flask)'],
   },
   {
     title: 'Frontend',
@@ -53,7 +53,7 @@ export const TECHNOLOGY_CATEGORIES: TechCategory[] = [
       'Construcción de interfaces modernas, integradas con APIs y enfocadas en experiencia de usuario, rendimiento y mantenibilidad a largo plazo.',
     items: [
       'Angular (v10–v20)',
-      'Angular Material / Material UI',
+      'Angular Material',
       'TypeScript / JavaScript',
       'HTML / CSS',
       'Tailwind CSS',
