@@ -20,7 +20,7 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
           <a class="button button--primary" href="https://github.com/HMODevelopers" target="_blank" rel="noreferrer">
             Ver código en GitHub
           </a>
-          <a class="button button--secondary" href="assets/documents/carlos-lafarga-cv.pdf" download>
+          <a class="button button--secondary" href="assets/documents/CV_Carlos_Lafarga_2026S.pdf" download>
             Descargar CV
           </a>
           <a class="button button--ghost" href="#contacto">Contactarme</a>
