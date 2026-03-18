@@ -29,12 +29,13 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
 
       <aside class="hero__panel" aria-label="Resumen profesional">
         <div class="hero__badge">
-          <span>Ubicación: Hermosillo, Sonora, México. Disponible para colaborar en proyectos con foco en resultados, calidad y continuidad del servicio.</span>
+          <span class="hero__badge-label">Ubicación</span>
+          <p>Hermosillo, Sonora, México · Disponible para colaborar en proyectos con foco en resultados, calidad y continuidad del servicio.</p>
         </div>
 
         <div class="hero__metrics">
           @for (metric of metrics(); track metric.value) {
-            <article>
+            <article class="hero__metric-card">
               <strong>{{ metric.value }}</strong>
               <span>{{ metric.label }}</span>
             </article>
@@ -79,7 +80,9 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
 
     h1,
     h2,
-    p {
+    p,
+    .hero__badge p,
+    .hero__metric-card span {
       margin: 0;
     }
 
@@ -148,13 +151,13 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
 
     .hero__panel {
       display: grid;
-      gap: 1rem;
-      padding: 1.5rem;
-      border-radius: 1.75rem;
+      gap: 1.25rem;
+      padding: 1.75rem;
+      border-radius: 1.5rem;
       border: 1px solid var(--color-border);
       background:
         radial-gradient(circle at top, rgba(96, 165, 250, 0.2), transparent 50%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 35%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 35%),
         var(--color-surface-elevated);
       box-shadow: var(--shadow-strong);
       overflow: hidden;
@@ -170,13 +173,47 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
       pointer-events: none;
     }
 
-    .hero__badge {
-      padding: 1rem;
+    .hero__badge,
+    .hero__metric-card {
+      position: relative;
+      display: grid;
+      gap: 0.65rem;
+      padding: 1.25rem;
       border-radius: 1.25rem;
-      border: 1px solid rgba(96, 165, 250, 0.2);
-      background: rgba(8, 15, 30, 0.45);
-      color: var(--color-text-soft);
-      line-height: 1.7;
+      border: 1px solid var(--color-border);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+      box-shadow: var(--shadow-soft);
+      backdrop-filter: blur(10px);
+      transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease, background 220ms ease;
+    }
+
+    .hero__badge {
+      border-color: rgba(96, 165, 250, 0.24);
+      background: linear-gradient(180deg, rgba(8, 15, 30, 0.82), rgba(15, 23, 42, 0.72));
+    }
+
+    .hero__badge:hover,
+    .hero__metric-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--color-border-strong);
+      box-shadow: var(--shadow-strong);
+    }
+
+    .hero__badge-label {
+      display: inline-flex;
+      width: fit-content;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+    }
+
+    .hero__badge p {
+      color: rgba(248, 250, 252, 0.92);
+      font-size: 0.98rem;
+      line-height: 1.75;
+      text-wrap: balance;
     }
 
     .hero__metrics {
@@ -184,23 +221,19 @@ import { HeroMetric } from '../../../core/models/portfolio.models';
       gap: 1rem;
     }
 
-    .hero__metrics article {
-      display: grid;
-      gap: 0.45rem;
-      padding: 1rem;
-      border-radius: 1.1rem;
-      background: var(--color-surface-soft);
-      border: 1px solid var(--color-border);
+    .hero__metric-card strong {
+      color: var(--color-text);
+      font-size: clamp(1.18rem, 2vw, 1.4rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.15;
     }
 
-    strong {
-      font-size: 1.05rem;
-      letter-spacing: -0.02em;
-    }
-
-    span {
-      color: var(--color-text-muted);
-      line-height: 1.7;
+    .hero__metric-card span {
+      color: var(--color-text-soft);
+      font-size: 0.97rem;
+      line-height: 1.75;
+      max-width: 32ch;
     }
 
     @media (max-width: 920px) {

@@ -17,9 +17,9 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_METRICS: HeroMetric[] = [
-  { value: '10+ años', label: 'Experiencia desarrollando y manteniendo soluciones para operación diaria.' },
-  { value: 'Angular + .NET', label: 'Stack principal para productos empresariales, académicos y de gobierno.' },
-  { value: 'Power BI + SQL', label: 'Dashboards, análisis de datos y optimización de consultas con impacto real.' },
+  { value: '10+ años', label: 'Experiencia en desarrollo y mantenimiento de soluciones para operación continua.' },
+  { value: 'Angular + .NET', label: 'Stack principal para productos empresariales, académicos e institucionales.' },
+  { value: 'Power BI + SQL', label: 'Dashboards, análisis de datos y optimización de consultas con impacto operativo real.' },
 ];
 
 export const HIGHLIGHTS: HighlightItem[] = [
