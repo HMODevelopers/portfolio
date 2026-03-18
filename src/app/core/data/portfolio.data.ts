@@ -186,6 +186,9 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
   },
 ];
 
+export const CONTACT_WHATSAPP_MESSAGE = 'Hola Carlos, vi tu portafolio y me gustaría ponerme en contacto contigo.';
+export const CONTACT_WHATSAPP_URL = `https://wa.me/526623953551?text=${encodeURIComponent(CONTACT_WHATSAPP_MESSAGE)}`;
+
 export const CONTACT_LINKS: ContactLink[] = [
   {
     label: 'Correo',
@@ -193,9 +196,9 @@ export const CONTACT_LINKS: ContactLink[] = [
     href: 'mailto:carloslafarga22@gmail.com',
   },
   {
-    label: 'Teléfono',
+    label: 'WhatsApp',
     value: '+52 662 395 3551',
-    href: 'tel:+526623953551',
+    href: CONTACT_WHATSAPP_URL,
   },
   {
     label: 'GitHub',

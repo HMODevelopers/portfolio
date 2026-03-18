@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { CONTACT_WHATSAPP_URL } from '../../core/data/portfolio.data';
 
 @Component({
   selector: 'app-footer',
@@ -11,7 +12,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       </div>
       <div class="footer__links">
         <a href="mailto:carloslafarga22@gmail.com">Correo</a>
-        <a href="tel:+526623953551">Teléfono</a>
+        <a [href]="whatsappHref" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversación de WhatsApp con Carlos al +52 662 395 3551">WhatsApp</a>
         <a href="https://github.com/HMODevelopers" target="_blank" rel="noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/carlos-octavio-preciado-lafarga-0423a5ba/" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
@@ -50,12 +51,22 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     a {
       color: inherit;
       text-decoration: none;
+      cursor: pointer;
+      transition: color 180ms ease;
     }
 
     a:hover {
       color: var(--color-text);
     }
+
+    a:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, white 45%);
+      outline-offset: 3px;
+      border-radius: 0.5rem;
+    }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FooterComponent {}
+export class FooterComponent {
+  protected readonly whatsappHref = CONTACT_WHATSAPP_URL;
+}
