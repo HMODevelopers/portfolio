@@ -42,9 +42,19 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
 
         <article>
           <h3>Idiomas</h3>
+          <div class="language-list" aria-label="Idiomas y nivel">
+            <p class="language-item">
+              <strong>Español</strong>
+              <span>— Nativo</span>
+            </p>
+            <p class="language-item">
+              <strong>Inglés</strong>
+              <span>— Básico (A2)</span>
+            </p>
+          </div>
           <p>
-            Español 100% e inglés 40%. Tengo experiencia colaborando con usuarios no técnicos y
-            comunicando soluciones de forma clara, directa y orientada a resultados.
+            Inglés con comprensión lectora básica, capacidad de entender conversaciones simples y
+            comunicación limitada. Actualmente en proceso de mejora para desarrollar mayor fluidez.
           </p>
         </article>
       </div>
@@ -79,6 +89,29 @@ import { SectionHeadingComponent } from '../../../shared/ui/section-heading.comp
     p {
       color: var(--color-text-muted);
       line-height: 1.85;
+    }
+
+    .language-list {
+      display: grid;
+      gap: 0.35rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .language-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.35rem;
+      line-height: 1.6;
+    }
+
+    .language-item strong {
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .language-item span {
+      color: var(--color-text-muted);
     }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

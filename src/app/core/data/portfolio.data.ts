@@ -187,7 +187,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
 ];
 
 export const CONTACT_WHATSAPP_MESSAGE = 'Hola Carlos, vi tu portafolio y me gustaría ponerme en contacto contigo.';
-export const CONTACT_WHATSAPP_URL = `https://wa.me/526623953551?text=${encodeURIComponent(CONTACT_WHATSAPP_MESSAGE)}`;
+export const CONTACT_WHATSAPP_URL = `https://wa.me/526624640131?text=${encodeURIComponent(CONTACT_WHATSAPP_MESSAGE)}`;
 
 export const CONTACT_LINKS: ContactLink[] = [
   {
@@ -197,7 +197,7 @@ export const CONTACT_LINKS: ContactLink[] = [
   },
   {
     label: 'WhatsApp',
-    value: '+52 662 395 3551',
+    value: '+52 662 464 0131',
     href: CONTACT_WHATSAPP_URL,
   },
   {
